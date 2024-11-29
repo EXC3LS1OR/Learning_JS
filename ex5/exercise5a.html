@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let myName = 'Alex';
+      let coffeePrice = 5;
+      let bagelsPrice = 3;
+      let soupPrice = 9;
+      let cost = 0;
+      let tax = 0.1;
+      console.log(`My name is ${myName}`);
+
+      cost = 1*coffeePrice + 2*bagelsPrice + 1*soupPrice;
+      taxedCost = tax*cost; 
+      const totalCost = cost + taxedCost;
+      console.log(`Cost of food: ${cost}€`);
+      console.log(`Tax(10%):${taxedCost}€`);
+      console.log(`Total cost: ${totalCost}€`);
+    </script>
+  </body>
+</html>
