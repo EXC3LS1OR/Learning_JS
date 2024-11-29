@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <style>
+      .yellow-button{
+        background-color: yellow;
+      }
+
+      .orange-button{ 
+        background-color: orange;
+      }
+
+    </style>    
+
+  </head>
+  <body>
+    
+    <p>
+      Adults Plain Cotton T-shirt
+    </p>
+
+    <p> 
+      Price : 7,99€
+    </p>
+
+    <button class="yellow-button" onclick = "alert('Added')">
+      Add to cart
+    </button>
+
+    <button class="orange-button" onclick="purchase()">
+      Buy now
+    </button>
+
+    <script>
+      function purchase(){
+        console.log('Loading...');
+        alert('Purchased');
+      }
+    </script>
+  </body>
+</html>
